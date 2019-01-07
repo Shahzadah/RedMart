@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#FF4054</color>
+    <color name="colorPrimaryDark">#EC243B</color>
+    <color name="textColorPrimary">@android:color/white</color>
+    <color name="windowBackground">@android:color/white</color>
+    <color name="navigationBarColor">@android:color/black</color>
+    <color name="accent">#FF4054</color>
+
+    <color name="text_notes_details">#9F9F9F</color>
+    <color name="grey_one">#666666</color>
+    <color name="grey_two">#cccccc</color>
+    <color name="white_list_color">#FAFAFA</color>
+    <color name="ripple_row_item_marketplace">@color/grey_two</color>
+
+</resources>

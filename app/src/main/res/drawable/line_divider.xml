@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <size
+        android:width="@dimen/horizontal_line_height"
+        android:height="@dimen/horizontal_line_height" />
+
+    <solid android:color="@color/grey_two" />
+
+</shape>

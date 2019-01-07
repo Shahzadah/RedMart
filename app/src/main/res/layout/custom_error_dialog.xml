@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_15dp"
+    android:orientation="vertical">
+
+    <com.redmart.redmart.widgets.CustomTextView
+        android:id="@+id/errorHeaderTextView"
+        style="@style/HeaderTextAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.redmart.redmart.widgets.CustomTextView
+        android:id="@+id/errorMessageTextView"
+        style="@style/DescriptionTextAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_10dp" />
+
+
+    <LinearLayout
+        android:id="@+id/errorMessageBtns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <com.redmart.redmart.widgets.CustomTextView
+            android:id="@+id/negativeBtn"
+            style="@style/ButtonTextAlertBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/padding_5dp"
+            android:text="@string/no" />
+
+        <com.redmart.redmart.widgets.CustomTextView
+            android:id="@+id/positiveBtn"
+            style="@style/ButtonTextAlertBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes" />
+
+    </LinearLayout>
+
+    <com.redmart.redmart.widgets.CustomTextView
+        android:id="@+id/okayBtn"
+        style="@style/ButtonTextAlertBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:text="@string/ok"
+        android:visibility="visible" />
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_size_toolbar">20sp</dimen>
+
+    <dimen name="margin_1">1dp</dimen>
+    <dimen name="padding_5dp">5dp</dimen>
+    <dimen name="padding_10dp">10dp</dimen>
+    <dimen name="padding_15dp">15dp</dimen>
+
+    <dimen name="text_size_alert_heading">20sp</dimen>
+    <dimen name="text_size_alert_desc">14sp</dimen>
+    <dimen name="text_size_alert_button">16sp</dimen>
+    <dimen name="text_size_title">16sp</dimen>
+    <dimen name="text_size_details">14sp</dimen>
+
+    <dimen name="cpi_height">48dp</dimen>
+    <dimen name="default_circle_indicator_radius">5dp</dimen>
+
+    <dimen name="horizontal_line_height">1dp</dimen>
+    <dimen name="corner_radius_row_image">4dp</dimen>
+    <dimen name="marketplace_row_image_width">115dp</dimen>
+    <dimen name="marketplace_row_image_height">80dp</dimen>
+    <dimen name="progress_dialog_width">290dp</dimen>
+    <dimen name="default_load_more_indicator_radius">5dp</dimen>
+</resources>

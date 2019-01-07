@@ -1,0 +1,4 @@
+<resources>
+    <string name="IMAGE_BASE_URL">http://media.redmart.com/newmedia/200p</string>
+    <string name="API_ENDPOINT_PRODUCT_LIST">https://api.redmart.com/v1.6.0/catalog/</string>
+</resources>

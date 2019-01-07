@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">RedMart</string>
+    <string name="dialog_default_title">Loading</string>
+    <string name="title_network_unavailable">No Internet Connection</string>
+    <string name="msg_network_unavailable">Awaiting network connection. Please move to an area where network is available.</string>
+    <string name="title_server_unavailable">Server unavailable</string>
+    <string name="msg_server_unavailable">We are facing some issue to establish connection with the server. Please try again later.</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="transition_product_details">TransitionProductImage</string>
+    <string name="market_place">Marketplace</string>
+    <string name="country_origin">Country of Origin</string>
+    <string name="about_product">About the product</string>
+    <string name="image_content_description">Image Content Description</string>
+</resources>

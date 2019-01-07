@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/horizontal_line_height"
+    android:background="@drawable/product_list_row_item"
+    android:paddingBottom="@dimen/padding_10dp"
+    android:paddingLeft="@dimen/padding_10dp"
+    android:paddingRight="@dimen/padding_10dp"
+    android:paddingTop="@dimen/padding_10dp">
+
+    <FrameLayout
+        android:id="@+id/flImage"
+        android:layout_width="@dimen/marketplace_row_image_width"
+        android:layout_height="@dimen/marketplace_row_image_height"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/padding_10dp">
+
+        <ImageView
+            android:id="@+id/ivProductImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/image_content_description"
+            android:src="@drawable/no_image"
+            android:transitionName="@string/transition_product_details" />
+
+        <ProgressBar
+            android:id="@+id/pbProductImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/flImage"
+        android:minHeight="@dimen/marketplace_row_image_height">
+
+        <com.redmart.redmart.widgets.CustomTextView
+            android:id="@+id/textview_title"
+            style="@style/ProductTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name" />
+
+        <com.redmart.redmart.widgets.CustomTextView
+            android:id="@+id/textview_description"
+            style="@style/ProductDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_title"
+            android:layout_marginTop="@dimen/padding_5dp"
+            android:text="@string/app_name" />
+
+        <com.redmart.redmart.widgets.CustomTextView
+            android:id="@+id/textview_price"
+            style="@style/ProductDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:text="@string/app_name" />
+
+    </RelativeLayout>
+</RelativeLayout>

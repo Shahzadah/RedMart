@@ -1,0 +1,17 @@
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <changeBounds>
+        <targets>
+            <target android:targetId="@id/ivProductImage" />
+            <target android:targetId="@id/ivProductImage" />
+        </targets>
+    </changeBounds>
+
+    <changeImageTransform>
+        <targets>
+            <target android:targetId="@id/ivProductImage" />
+            <target android:targetId="@id/ivProductImage" />
+        </targets>
+    </changeImageTransform>
+
+</transitionSet>
